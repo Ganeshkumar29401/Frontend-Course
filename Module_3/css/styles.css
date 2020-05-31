@@ -1,0 +1,79 @@
+#navbar-head{
+    
+    background-color: rgb(153,153,153);
+    border: 2px solid black;
+    border-radius: 0;
+    border-left: 0px;
+    border-right: 0px;
+    margin-bottom: 10px;
+}
+#head{
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+.main-content{
+    overflow: hidden;
+}
+.main-content h2{
+    font-size: 4rem;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+#phone{
+   background-color:rgb(153,153,153) !important; 
+   margin-left: 20px !important;
+   margin-right: 20px !important;
+   padding-left: 30px;
+   padding-right: 30px;
+   margin-bottom: 30px;
+}
+#phone p{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#phone h3{
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 20px;
+}
+@media (max-width:768px){
+    #phone{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
+.navbar-header a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 2px solid black;
+    
+}
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+.navbar-default .navbar-toggle:focus {
+    border: 2px solid #ddd;
+}
+.navbar-default .navbar-toggle:focus span{
+    border: 2px solid #ddd;
+}
+.navbar-header button.navbar-toggle{
+    
+    margin-top: -60px;
+}
+#nav-list{
+     margin-top: 0px;
+    font-size: 2rem;
+   
+}
+hr{
+    /* border-color: black; */
+    border: 1.5px solid black;
+    margin-top: 0;
+    margin-bottom: 10px;
+   
+}
